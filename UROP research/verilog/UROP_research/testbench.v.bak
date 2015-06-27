@@ -1,0 +1,43 @@
+module testbench;
+	reg x_plus,x_minus,y_plus,y_minus;
+	wire z_plus,z_minus;
+	reg clk;
+	
+	
+	On_line_adder(x_plus,x_minus,y_plus,y_minus,clk,z_plus,z_minus);
+	
+	initial 
+		begin 
+			x_plus=1'b0;
+			x_minus=1'b0;
+			y_plus=1;
+			y_minus=0;
+			clk=0;
+			
+			#25;
+			clk=1;
+			
+			
+			#25
+			x_plus=1'b1;
+			x_minus=1'b0;
+			y_plus=0;
+			y_minus=0;
+			clk=0;
+			
+			
+			#25;
+			clk=1;
+			
+			
+			#25;
+			x_plus=0;
+			x_minus=0;
+			y_plus=0;
+			y_minus=1;
+			clk=0;	
+	 end 
+endmodule
+			
+			
+			

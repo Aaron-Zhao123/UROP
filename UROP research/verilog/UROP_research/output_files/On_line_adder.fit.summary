@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jun 26 11:37:49 2015
+Quartus II 32-bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : On_line_adder
+Top-level Entity Name : On_line_adder
+Family : Cyclone III
+Device : EP3C5F256C6
+Timing Models : Final
+Total logic elements : 6 / 5,136 ( < 1 % )
+    Total combinational functions : 4 / 5,136 ( < 1 % )
+    Dedicated logic registers : 5 / 5,136 ( < 1 % )
+Total registers : 5
+Total pins : 7 / 183 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
