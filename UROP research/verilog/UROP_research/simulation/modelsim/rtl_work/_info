@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0\UROP\UROP research\verilog\UROP_research\simulation\modelsim
+vcounter
+Ic@9PN=6jARVzF6NmI1Ri<1
+V`aPeT2`EY?l83i3@BaQdL2
+Z1 dC:\altera\13.0\UROP\UROP research\verilog\UROP_research\simulation\modelsim
+w1435595742
+8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/counter.v
+FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/counter.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research} -O0
+!i10b 1
+!s100 ED7<3PF=NfE7F<M5A4Ljd2
+!s85 0
+!s108 1435596872.512000
+!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/counter.v|
+!s101 -O0
+vD_flipflop
+Ib6zI=M3df[UNeBN=ZO3Lk2
+V=aG=GclHV0Wio]36ShU2C1
+R1
+Z5 w1435575119
+8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v
+FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@d_flipflop
+!i10b 1
+!s100 ;B[hg8@54]1^E;nTF18Rc1
+!s85 0
+!s108 1435596872.252000
+!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v|
+!s101 -O0
+vfull_adder
+ILAJEj`KFVQ8LBnKIQjN`N3
+VY<ik;mLW>j9l4DLC>lZ8;0
+R1
+R5
+8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v
+FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 OiC7f33bD9@eP3VG8VDFj2
+!s85 0
+!s108 1435596872.128000
+!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v|
+!s101 -O0
+vOn_line_adder
+IK^W1eQnENajNKa7^^MB_k1
+VTYW9cQ8IfamJooelOjg@51
+R1
+R5
+8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder.v
+FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder.v
+L0 1
+R2
+r1
+31
+R3
+n@on_line_adder
+R4
+!i10b 1
+!s100 mPLGJY70Q5GTCgaXRUZ1T0
+!s85 0
+!s108 1435596872.003000
+!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder.v|
+!s101 -O0
+vonline_adder_testing
+IoQlji=Wz<L7GVY[H2POC;3
+Vc1;_j5jXOjPKSIYRPhQ@o2
+R1
+w1435595665
+8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/online_adder_testing.v
+FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/online_adder_testing.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 OB>IJ0cIKVPNWB<bJ]^j11
+!s85 0
+!s108 1435596872.379000
+!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/online_adder_testing.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/online_adder_testing.v|
+!s101 -O0
+vRAM
+I@?4oz?l:07I>i[GVY9h4j0
+V97iZENjU:Hn4WO>9E[iYz3
+R1
+w1435585523
+8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM.v
+FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@r@a@m
+!i10b 1
+!s100 b8J`YU4zA0:]n>^oJnKEV2
+!s85 0
+!s108 1435596872.650000
+!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM.v|
+!s101 -O0
+vRAM_OUT
+!i10b 1
+!s100 WkO;[R?ZUF>5m@dS>`5n>1
+I1;YJBCnV=?k0;9GN<7VDz3
+VS?W^=ag9S2<_O0gW07[e51
+R1
+w1435595483
+8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM_OUT.v
+FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM_OUT.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1435596872.792000
+!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM_OUT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM_OUT.v|
+!s101 -O0
+R3
+R4
+n@r@a@m_@o@u@t

@@ -1,5 +1,5 @@
 Assembler report for On_line_adder
-Fri Jun 26 11:37:51 2015
+Mon Jun 29 17:57:14 2015
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -10,7 +10,7 @@ Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/altera/13.0/UROP_research/output_files/On_line_adder.sof
+  5. Assembler Device Options: C:/altera/13.0/UROP/UROP research/verilog/UROP_research/output_files/On_line_adder.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Jun 26 11:37:51 2015 ;
+; Assembler Status      ; Successful - Mon Jun 29 17:57:14 2015 ;
 ; Revision Name         ; On_line_adder                         ;
 ; Top-level Entity Name ; On_line_adder                         ;
 ; Family                ; Cyclone III                           ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------------+
-; Assembler Generated Files                                   ;
-+-------------------------------------------------------------+
-; File Name                                                   ;
-+-------------------------------------------------------------+
-; C:/altera/13.0/UROP_research/output_files/On_line_adder.sof ;
-+-------------------------------------------------------------+
++----------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                              ;
++----------------------------------------------------------------------------------------+
+; File Name                                                                              ;
++----------------------------------------------------------------------------------------+
+; C:/altera/13.0/UROP/UROP research/verilog/UROP_research/output_files/On_line_adder.sof ;
++----------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/altera/13.0/UROP_research/output_files/On_line_adder.sof ;
-+----------------+----------------------------------------------------------------------+
-; Option         ; Setting                                                              ;
-+----------------+----------------------------------------------------------------------+
-; Device         ; EP3C5F256C6                                                          ;
-; JTAG usercode  ; 0x00087F91                                                           ;
-; Checksum       ; 0x00087F91                                                           ;
-+----------------+----------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/altera/13.0/UROP/UROP research/verilog/UROP_research/output_files/On_line_adder.sof ;
++----------------+-------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                         ;
++----------------+-------------------------------------------------------------------------------------------------+
+; Device         ; EP3C5F256C6                                                                                     ;
+; JTAG usercode  ; 0x0008812A                                                                                      ;
+; Checksum       ; 0x0008812A                                                                                      ;
++----------------+-------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Assembler
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Fri Jun 26 11:37:50 2015
+    Info: Processing started: Mon Jun 29 17:57:12 2015
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off On_line_adder -c On_line_adder
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 346 megabytes
-    Info: Processing ended: Fri Jun 26 11:37:51 2015
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 347 megabytes
+    Info: Processing ended: Mon Jun 29 17:57:14 2015
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

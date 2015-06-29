@@ -1,5 +1,5 @@
 Analysis & Synthesis report for On_line_adder
-Fri Jun 26 12:52:12 2015
+Mon Jun 29 17:57:04 2015
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jun 26 12:52:12 2015       ;
+; Analysis & Synthesis Status        ; Successful - Mon Jun 29 17:57:04 2015       ;
 ; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; On_line_adder                               ;
 ; Top-level Entity Name              ; On_line_adder                               ;
@@ -161,15 +161,15 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                               ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                 ; Library ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------+---------+
-; full_adder.v                     ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP_research/full_adder.v    ;         ;
-; D_flipflop.v                     ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP_research/D_flipflop.v    ;         ;
-; On_line_adder.v                  ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP_research/On_line_adder.v ;         ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                          ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; full_adder.v                     ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v    ;         ;
+; D_flipflop.v                     ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v    ;         ;
+; On_line_adder.v                  ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder.v ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -249,7 +249,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Fri Jun 26 12:52:11 2015
+    Info: Processing started: Mon Jun 29 17:57:02 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off On_line_adder -c On_line_adder
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file full_adder.v
@@ -273,9 +273,9 @@ Info (21057): Implemented 13 device resources after synthesis - the final resour
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 6 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 368 megabytes
-    Info: Processing ended: Fri Jun 26 12:52:12 2015
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 369 megabytes
+    Info: Processing ended: Mon Jun 29 17:57:04 2015
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

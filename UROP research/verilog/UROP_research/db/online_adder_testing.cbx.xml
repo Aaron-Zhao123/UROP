@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="online_adder_testing">
+		<CBX_INST_ENTRY INSTANCE_NAME="|online_adder_testing|RAM:RAM_input|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mtq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|online_adder_testing|RAM_OUT:RAM_output|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fjn1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
