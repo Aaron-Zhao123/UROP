@@ -6,7 +6,7 @@
 % Version: 	1.0
 % Date:			20 Nov 2011
 	
-DEPTH = 1024;		% Size of ROM
+DEPTH = 1024;		% Size of RAM
 WIDTH = 10;			% Size of data in bits
 OUTMAX = 2^WIDTH - 1;	% Amplitude of sinewave
 
