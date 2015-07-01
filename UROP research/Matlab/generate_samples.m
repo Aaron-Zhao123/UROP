@@ -7,7 +7,7 @@ function [positive,negative,values]=generate_samples(size)
     positive(size,8)=0;
     negative(size,8)=0; %initial two vectors for memory allocation
     
-    digit=randi([0 100],size,1); %generates a 1*size array with numbers from 0 to 255(8 bits)
+    digit=randi([0 50],size,1); %generates a 1*size array with numbers from 0 to 255(8 bits)
     values=digit;
     for i=1:size
         cs_number=csdigit(digit(i),8);

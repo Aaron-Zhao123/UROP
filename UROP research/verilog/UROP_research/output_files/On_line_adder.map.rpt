@@ -1,5 +1,5 @@
 Analysis & Synthesis report for On_line_adder
-Mon Jun 29 17:57:04 2015
+Tue Jun 30 10:12:00 2015
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jun 29 17:57:04 2015       ;
+; Analysis & Synthesis Status        ; Successful - Tue Jun 30 10:12:00 2015       ;
 ; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; On_line_adder                               ;
 ; Top-level Entity Name              ; On_line_adder                               ;
@@ -249,7 +249,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Mon Jun 29 17:57:02 2015
+    Info: Processing started: Tue Jun 30 10:11:58 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off On_line_adder -c On_line_adder
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file full_adder.v
@@ -258,8 +258,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file d_flipf
     Info (12023): Found entity 1: D_flipflop
 Info (12021): Found 1 design units, including 1 entities, in source file on_line_adder.v
     Info (12023): Found entity 1: On_line_adder
-Info (12021): Found 1 design units, including 1 entities, in source file testbench.v
-    Info (12023): Found entity 1: testbench
 Info (12021): Found 1 design units, including 1 entities, in source file testbench_step.v
     Info (12023): Found entity 1: testbench_step
 Info (12127): Elaborating entity "On_line_adder" for the top level hierarchy
@@ -274,7 +272,7 @@ Info (21057): Implemented 13 device resources after synthesis - the final resour
     Info (21061): Implemented 6 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 369 megabytes
-    Info: Processing ended: Mon Jun 29 17:57:04 2015
+    Info: Processing ended: Tue Jun 30 10:12:00 2015
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 

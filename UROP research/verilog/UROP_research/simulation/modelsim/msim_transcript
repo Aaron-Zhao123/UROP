@@ -40,16 +40,97 @@
 # 
 # Top level modules:
 # 	counter
-# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM.v}
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM_out.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module RAM
+# -- Compiling module RAM_out
 # 
 # Top level modules:
-# 	RAM
-# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM_OUT.v}
+# 	RAM_out
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/ROM_in.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module RAM_OUT
+# -- Compiling module ROM_in
 # 
 # Top level modules:
-# 	RAM_OUT
+# 	ROM_in
 # 
+vsim +altera -L altera_mf_ver -do online_adder_testing_run_msim_rtl_verilog.do -l msim_transcript -gui work.online_adder_testing
+# vsim +altera -L altera_mf_ver -do online_adder_testing_run_msim_rtl_verilog.do -l msim_transcript -gui work.online_adder_testing 
+# Loading work.online_adder_testing
+# Loading work.counter
+# Loading work.ROM_in
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.On_line_adder
+# Loading work.full_adder
+# Loading work.D_flipflop
+# Loading work.RAM_out
+# ** Warning: (vsim-3017) C:/altera/13.0/UROP/UROP research/verilog/UROP_research/online_adder_testing.v(14): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /online_adder_testing/RAM_output
+# ** Warning: (vsim-3722) C:/altera/13.0/UROP/UROP research/verilog/UROP_research/online_adder_testing.v(14): [TFMPC] - Missing connection for port 'q'.
+# 
+# do online_adder_testing_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module On_line_adder
+# 
+# Top level modules:
+# 	On_line_adder
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_flipflop
+# 
+# Top level modules:
+# 	D_flipflop
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/online_adder_testing.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module online_adder_testing
+# 
+# Top level modules:
+# 	online_adder_testing
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/RAM_out.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RAM_out
+# 
+# Top level modules:
+# 	RAM_out
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0/UROP/UROP\ research/verilog/UROP_research {C:/altera/13.0/UROP/UROP research/verilog/UROP_research/ROM_in.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ROM_in
+# 
+# Top level modules:
+# 	ROM_in
+# 
+add wave -position end  sim:/online_adder_testing/address
+add wave -position end  sim:/online_adder_testing/clk
+add wave -position end  sim:/online_adder_testing/data_in
+add wave -position end  sim:/online_adder_testing/data_out
+add wave -position end  sim:/online_adder_testing/signal
+mem load -i {C:/altera/13.0/UROP/UROP research/Matlab/ROM_input.mem} -format hex /online_adder_testing/ROM_input/altsyncram_component/mem_data
+# (vsim-3632) Illegal character '-' for radix 'hexadecimal' on line 1 of file "C:/altera/13.0/UROP/UROP research/Matlab/ROM_input.mem".(vsim-3632) Illegal character '-' for radix 'hexadecimal' on line 1 of file "C:/altera/13.0/UROP/UROP research/Matlab/ROM_input.mem".
+mem load -i {C:/altera/13.0/UROP/UROP research/Matlab/ROM_input.mem} -format hex /online_adder_testing/ROM_input/altsyncram_component/mem_data
+# (vsim-3659) Too many digits (13) in data on line 1 of file "C:/altera/13.0/UROP/UROP research/Matlab/ROM_input.mem". (Max is 1.)
+mem load -i {C:/altera/13.0/UROP/UROP research/Matlab/test.mem.txt} -format hex /online_adder_testing/ROM_input/altsyncram_component/mem_data
+# (vsim-3659) Too many digits (2) in data on line 1 of file "C:/altera/13.0/UROP/UROP research/Matlab/test.mem.txt". (Max is 1.)
+mem load -i {C:/altera/13.0/UROP/UROP research/Matlab/test.mem} -format hex /online_adder_testing/ROM_input/altsyncram_component/mem_data
+# (vsim-3659) Too many digits (2) in data on line 1 of file "C:/altera/13.0/UROP/UROP research/Matlab/test.mem". (Max is 1.)

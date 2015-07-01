@@ -53,10 +53,11 @@ set_global_assignment -name VERILOG_FILE counter.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name QIP_FILE RAM.qip
-set_global_assignment -name QIP_FILE RAM_OUT.qip
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_F13 -to clk
+set_global_assignment -name QIP_FILE RAM_out.qip
+set_global_assignment -name QIP_FILE ROM_in.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name HEX_FILE ../../Matlab/ROM_input.hex

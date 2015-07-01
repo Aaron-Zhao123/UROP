@@ -2,7 +2,6 @@ vendor_name = ModelSim
 source_file = 1, C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v
 source_file = 1, C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v
 source_file = 1, C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder.v
-source_file = 1, C:/altera/13.0/UROP/UROP research/verilog/UROP_research/testbench.v
 source_file = 1, C:/altera/13.0/UROP/UROP research/verilog/UROP_research/testbench_step.v
 source_file = 1, C:/altera/13.0/UROP/UROP research/verilog/UROP_research/db/On_line_adder.cbx.xml
 design_name = On_line_adder

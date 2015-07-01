@@ -1,4 +1,4 @@
-module On_line_adder (x_plus,x_minus,y_plus,y_minus,clk,z);
+module Online_adder_test2 (x_plus,x_minus,y_plus,y_minus,clk,z);
  //this part of code follows diagram of RADIX_2 ON-line ADDER
 	
 	output[1:0] z;

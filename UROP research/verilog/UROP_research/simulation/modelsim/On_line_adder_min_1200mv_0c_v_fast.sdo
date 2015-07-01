@@ -29,7 +29,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "On_line_adder")
-  (DATE "06/29/2015 17:57:19")
+  (DATE "06/30/2015 10:12:13")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 32-bit")
   (VERSION "Version 13.0.0 Build 156 04/24/2013 SJ Full Version")

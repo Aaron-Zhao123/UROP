@@ -1,16 +1,16 @@
-Fitter Status : Successful - Mon Jun 29 18:02:29 2015
+Fitter Status : Successful - Tue Jun 30 11:20:00 2015
 Quartus II 32-bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
 Revision Name : online_adder_testing
 Top-level Entity Name : online_adder_testing
 Family : Cyclone III
 Device : EP3C16F484C6
 Timing Models : Final
-Total logic elements : 0 / 15,408 ( 0 % )
-    Total combinational functions : 0 / 15,408 ( 0 % )
-    Dedicated logic registers : 0 / 15,408 ( 0 % )
-Total registers : 0
-Total pins : 1 / 347 ( < 1 % )
+Total logic elements : 210 / 15,408 ( 1 % )
+    Total combinational functions : 185 / 15,408 ( 1 % )
+    Dedicated logic registers : 125 / 15,408 ( < 1 % )
+Total registers : 125
+Total pins : 7 / 347 ( 2 % )
 Total virtual pins : 0
-Total memory bits : 0 / 516,096 ( 0 % )
+Total memory bits : 6,144 / 516,096 ( 1 % )
 Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
 Total PLLs : 0 / 4 ( 0 % )

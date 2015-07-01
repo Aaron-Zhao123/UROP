@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for On_line_adder
-Mon Jun 29 17:57:17 2015
+Tue Jun 30 10:12:11 2015
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -794,7 +794,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Mon Jun 29 17:57:15 2015
+    Info: Processing started: Tue Jun 30 10:12:09 2015
 Info: Command: quartus_sta On_line_adder -c On_line_adder
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
@@ -865,9 +865,9 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 385 megabytes
-    Info: Processing ended: Mon Jun 29 17:57:17 2015
+    Info: Peak virtual memory: 381 megabytes
+    Info: Processing ended: Tue Jun 30 10:12:11 2015
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

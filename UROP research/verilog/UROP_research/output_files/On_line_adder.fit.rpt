@@ -1,5 +1,5 @@
 Fitter report for On_line_adder
-Mon Jun 29 17:57:11 2015
+Tue Jun 30 10:12:06 2015
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Mon Jun 29 17:57:11 2015       ;
+; Fitter Status                      ; Successful - Tue Jun 30 10:12:06 2015       ;
 ; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; On_line_adder                               ;
 ; Top-level Entity Name              ; On_line_adder                               ;
@@ -150,12 +150,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.60        ;
+; Average used               ; 1.75        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  20.0%      ;
+;     Processors 2-4         ;  25.0%      ;
 ;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -1014,22 +1014,22 @@ Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X0_Y12 to location X10_Y24
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.22 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.20 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file C:/altera/13.0/UROP/UROP research/verilog/UROP_research/output_files/On_line_adder.fit.smsg
 Info: Quartus II 32-bit Fitter was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 622 megabytes
-    Info: Processing ended: Mon Jun 29 17:57:11 2015
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Peak virtual memory: 618 megabytes
+    Info: Processing ended: Tue Jun 30 10:12:06 2015
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 
 +----------------------------+
